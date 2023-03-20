@@ -1,0 +1,21 @@
+{
+    "name": "generateme.md",
+    "version": "1.0.0",
+    "description": "Node.js application that will generate a README file for git projects based on user input.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/GO4YAS/generateme.md"
+    },
+    "author": "Yasmein Yang",
+    "bugs": {
+      "url": "https://github.com/GO4YAS/generateme.md/issues"
+    },
+    "homepage": "https://github.com/GO4YAS/generateme.md",
+    "dependencies": {
+      "inquirer": "^7.3.3"
+    }
+  }
