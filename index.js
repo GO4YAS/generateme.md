@@ -206,7 +206,7 @@ const questions = () => {
 
 questions()
     .then(answers => {
-        const pageMeMarkdown = require(answers);
+        const pageMeMarkdown = generatemeMarkdown(answers);
 
         // TODO: Create a function to write README file
         fs.writeFile('./dist/README.md', pageMeMarkdown, err => {
